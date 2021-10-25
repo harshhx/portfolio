@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import {loadConfettiShape} from "tsparticles-shape-confetti";
 
 
-export default function confetti() {
+export default function Confetti() {
   return (
     <Particles
       options={{
@@ -14,7 +14,7 @@ export default function confetti() {
         // },
         fullScreen: {
           enable: true,
-          zIndex: -1
+          zIndex: -10
         },
         interactivity: {
           detectsOn: "window"
