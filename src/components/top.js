@@ -7,7 +7,9 @@ import down from "./assets/down-arrow.svg";
 import { width } from "@mui/system";
 import Button from "@mui/material/Button";
 // import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
+import program from "./assets/undraw_programmer_re_owql.svg";
 import image from "./assets/Harsh Gupta Blob.png";
+import skill from "./assets/undraw_working_late_re_0c3y.svg";
 function Top() {
   const [loader, setLoader] = React.useState(false);
 
@@ -24,7 +26,32 @@ function Top() {
       <Container fluid>
         <Row>
           <Col xs={12} md={8}>
-            <div className="text">I'm Harsh Gupta</div>
+            <Row>
+              <Col>
+                <Slide
+                  direction="right"
+                  in={true}
+                  mountOnEnter
+                  unmountOnExit
+                  style={{ transformOrigin: "0 0 0" }}
+                  {...(true ? { timeout: 2000 } : {})}
+                >
+                  <img
+                    src={skill}
+                    alt="Harsh Gupta"
+                    style={{
+                      width: "180px",
+                      height: "180px",
+                      marginTop: "10vh",
+                    }}
+                  />
+                </Slide>
+              </Col>
+              <Col>
+                <div className="text">I'm Harsh Gupta</div>
+              </Col>
+            </Row>
+
             <Slide
               direction="up"
               in={true}
