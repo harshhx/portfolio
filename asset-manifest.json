@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.63c5596f.chunk.css",
-    "main.js": "/static/js/main.35eebd69.chunk.js",
-    "main.js.map": "/static/js/main.35eebd69.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8dc99a17.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8dc99a17.js.map",
+    "main.css": "/static/css/main.54d0c20f.chunk.css",
+    "main.js": "/static/js/main.491fc692.chunk.js",
+    "main.js.map": "/static/js/main.491fc692.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e3e39912.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e3e39912.js.map",
     "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.275d01a8.chunk.js": "/static/js/2.275d01a8.chunk.js",
-    "static/js/2.275d01a8.chunk.js.map": "/static/js/2.275d01a8.chunk.js.map",
-    "static/js/3.5136ff80.chunk.js": "/static/js/3.5136ff80.chunk.js",
-    "static/js/3.5136ff80.chunk.js.map": "/static/js/3.5136ff80.chunk.js.map",
+    "static/js/2.4110bc4d.chunk.js": "/static/js/2.4110bc4d.chunk.js",
+    "static/js/2.4110bc4d.chunk.js.map": "/static/js/2.4110bc4d.chunk.js.map",
+    "static/js/3.a239cbda.chunk.js": "/static/js/3.a239cbda.chunk.js",
+    "static/js/3.a239cbda.chunk.js.map": "/static/js/3.a239cbda.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.63c5596f.chunk.css.map": "/static/css/main.63c5596f.chunk.css.map",
-    "static/js/2.275d01a8.chunk.js.LICENSE.txt": "/static/js/2.275d01a8.chunk.js.LICENSE.txt",
-    "static/media/down-arrow.9b52668f.svg": "/static/media/down-arrow.9b52668f.svg",
-    "static/media/harsh.d3442e1e.jpg": "/static/media/harsh.d3442e1e.jpg"
+    "static/css/main.54d0c20f.chunk.css.map": "/static/css/main.54d0c20f.chunk.css.map",
+    "static/js/2.4110bc4d.chunk.js.LICENSE.txt": "/static/js/2.4110bc4d.chunk.js.LICENSE.txt",
+    "static/media/Harsh Gupta Blob.4578c322.png": "/static/media/Harsh Gupta Blob.4578c322.png",
+    "static/media/down-arrow.9b52668f.svg": "/static/media/down-arrow.9b52668f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8dc99a17.js",
+    "static/js/runtime-main.e3e39912.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.275d01a8.chunk.js",
-    "static/css/main.63c5596f.chunk.css",
-    "static/js/main.35eebd69.chunk.js"
+    "static/js/2.4110bc4d.chunk.js",
+    "static/css/main.54d0c20f.chunk.css",
+    "static/js/main.491fc692.chunk.js"
   ]
 }
