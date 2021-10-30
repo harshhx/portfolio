@@ -3,12 +3,11 @@ import { Slide } from "@mui/material";
 import "./top.css";
 import Confetti from "./confetti";
 import { Image, Row, Col, Container } from "react-bootstrap";
-import image from "./assets/harsh.jpg";
 import down from "./assets/down-arrow.svg";
-// import image from "./assets/WhatsApp Image 2021-10-30 at 12.59.48 PM.jpeg";
 import { width } from "@mui/system";
 import Button from "@mui/material/Button";
 // import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
+import image from "./assets/Harsh Gupta Blob.png";
 function Top() {
   const [loader, setLoader] = React.useState(false);
 
@@ -42,11 +41,11 @@ function Top() {
               </div>
             </Slide>
             {/* <Button variant="contained" endIcon={<SendIcon />}> */}
-            {loader && (
+            {/* {loader && (
               <Button className="btnc" variant="contained">
                 Resume
               </Button>
-            )}
+            )} */}
             {/* <Confetti /> */}
           </Col>
           <Col xs={6} md={4}>
