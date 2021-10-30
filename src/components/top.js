@@ -57,7 +57,7 @@ function Top() {
               style={{ transformOrigin: "0 0 0" }}
               {...(true ? { timeout: 2000 } : {})}
             >
-              <Image src={image} className="image" roundedCircle />
+              <Image src={image} className="image" />
             </Slide>
           </Col>
         </Row>

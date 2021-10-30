@@ -11,7 +11,7 @@ function App() {
       {/* <Confetti /> */}
       {/* <Header className="App-header" /> */}
       <Top />
-      {/* <Skills /> */}
+      <Skills />
     </div>
   );
 }
