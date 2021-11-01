@@ -5,6 +5,7 @@ import Confetti from "./components/confetti";
 import NavbarT from "./components/navbar";
 import { useEffect, useState } from "react";
 import Mobile from "./components/mobile";
+import Work from "./components/work_exp";
 
 import Skills from "./components/skills";
 
@@ -33,6 +34,7 @@ function App() {
         <NavbarT />
         <Top />
         <Skills />
+        <Work />
       </div>
     )
   );
