@@ -29,7 +29,7 @@ function App() {
   }, [isMobile]);
 
   return (
-    (isMobile && <Mobile />) || (
+    (mobile && <Mobile />) || (
       <div className="App">
         <NavbarT />
         <Top />
