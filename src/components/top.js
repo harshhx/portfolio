@@ -67,13 +67,6 @@ function Top() {
                 </p>
               </div>
             </Slide>
-            {/* <Button variant="contained" endIcon={<SendIcon />}> */}
-            {/* {loader && (
-              <Button className="btnc" variant="contained">
-                Resume
-              </Button>
-            )} */}
-            {/* <Confetti /> */}
           </Col>
           <Col xs={6} md={4}>
             <Slide
