@@ -42,7 +42,7 @@ function Top() {
                     style={{
                       width: "180px",
                       height: "180px",
-                      marginTop: "10vh",
+                      marginTop: "15vh",
                     }}
                   />
                 </Slide>
