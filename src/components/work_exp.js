@@ -16,7 +16,7 @@ function Work() {
       <div className="work">
         <h1 style={{ fontSize: "50px", color: "white", marginTop:"80px" }}>Work Experience</h1>
       </div>
-      <div className="timeline">
+      <div className="timeline" style={{marginBottom:"0px"}}>
         <WorkExpT />
       </div>
     </div>
