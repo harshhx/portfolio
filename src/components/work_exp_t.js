@@ -61,7 +61,7 @@ function WorkExpT() {
           <TimelineDot style={dot_style} />
         </TimelineSeparator>
         <TimelineContent style={text_style}>
-          Technical Content Writer - GeeksForGeeks
+          Technical Content Writer intern - GeeksForGeeks
         </TimelineContent>
       </TimelineItem>
     </Timeline>
