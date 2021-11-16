@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 ReactDOM.render(
   // <React.StrictMode>
   <BrowserRouter>
