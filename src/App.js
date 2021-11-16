@@ -34,9 +34,10 @@ function App() {
   }, [isMobile]);
 
   return (
-    (mobile && <Mobile />) || (
+    (mobile && <div><Confetti /><Mobile /></div> ) || (
       <div className="App">
         <NavbarT />
+        <Confetti />
         <Top />
         <Skills />
         <Work />
