@@ -5,6 +5,7 @@ import NavbarT from "./components/navbar";
 import { useEffect, useState } from "react";
 import Mobile from "./components/mobile";
 import Work from "./components/work_exp";
+import Education from "./components/education";
 import {
   BrowserRouter as Router,
   Routes,
@@ -39,6 +40,7 @@ function App() {
         <Top />
         <Skills />
         <Work />
+        <Education />
       </div>
     )
     // <Router>
