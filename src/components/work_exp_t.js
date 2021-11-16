@@ -28,7 +28,7 @@ function WorkExpT() {
   };
 
   return (
-    <Timeline position="alternate" style={{marginBottom:"0px", paddingLeft:"40px", paddingRight:"40px"}}>
+    <Timeline position="alternate" style={{marginBottom:"0px", paddingLeft:"40px", paddingRight:"40px", paddingBottom:"50px"}}>
       <TimelineItem>
         <TimelineOppositeContent color="text.secondary" style={alt_text_style}>
           August 2021 - October 2021

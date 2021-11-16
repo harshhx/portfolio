@@ -5,7 +5,12 @@ import NavbarT from "./components/navbar";
 import { useEffect, useState } from "react";
 import Mobile from "./components/mobile";
 import Work from "./components/work_exp";
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 import Skills from "./components/skills";
 
 function App() {
@@ -36,6 +41,11 @@ function App() {
         <Work />
       </div>
     )
+    // <Router>
+    //   <Routes>
+    //     <Route path="/" component={Skills} />
+    //   </Routes>
+    // </Router>
   );
 }
 

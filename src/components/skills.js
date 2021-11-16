@@ -33,7 +33,21 @@ function Skills() {
       <h1 style={{ fontSize: "50px", color: "white" }}>Skills</h1>
       <div style={{ width: "70%", marginTop: "7vh" }}>
         {skills.map((item) => {
-          return <Chip id="skill" label={item} size="medium" style={style} onClick={()=>{}} onMouseEnter={()=>{console.log("entered")}} onMouseLeave={()=>{console.log("exited")}}/>;
+          return (
+            <Chip
+              id="skill"
+              label={item}
+              size="medium"
+              style={style}
+              onClick={() => {}}
+              onMouseEnter={() => {
+                console.log("entered");
+              }}
+              onMouseLeave={() => {
+                console.log("exited");
+              }}
+            />
+          );
         })}
       </div>
       {/* <div style={{width:"100%", marginTop:"100px"}}>
