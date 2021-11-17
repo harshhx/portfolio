@@ -26,13 +26,13 @@ function NavbarT() {
                 </Nav.Link>
               </NavItem>
               <NavItem>
-                <Nav.Link as={Link} to="/education">
-                  Education
+                <Nav.Link as={Link} to="/projects">
+                  Projects
                 </Nav.Link>
               </NavItem>
               <NavItem>
-                <Nav.Link as={Link} to="/projects">
-                  Projects
+                <Nav.Link as={Link} to="/education">
+                  Education
                 </Nav.Link>
               </NavItem>
             </Nav>

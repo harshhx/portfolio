@@ -61,9 +61,17 @@ function Top() {
               {...(true ? { timeout: 2000 } : {})}
             >
               <div className="about">
-                <p>
+                {/* <p>
                   I am a Bachelor of Engineering Student in Information
                   Technology from MAIT Delhi.
+                </p> */}
+                <p>
+                  I am currently pursuing my under graduation in Information
+                  Technology Engineering from Maharaja Agrasen Institute of
+                  Technology in New Delhi. I mostly engage in Backend
+                  Development with satisfactory knowledge of frontend
+                  frameworks. I am a keen learner ready to learn new and
+                  exciting technologies.
                 </p>
               </div>
             </Slide>

@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import Mobile from "./components/mobile";
 import Work from "./components/work_exp";
 import Education from "./components/education";
+import Projects from "./components/projects";
 import {
   BrowserRouter as Router,
   Routes,
@@ -41,6 +42,7 @@ function App() {
         <Top />
         <Skills />
         <Work />
+        <Projects />
         <Education />
       </div>
     )

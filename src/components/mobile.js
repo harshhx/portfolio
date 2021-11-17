@@ -21,11 +21,18 @@ function Mobile() {
         <div>
           <div className="about">
             <p>
-              I am a Bachelor of Engineering Student in Information Technology
-              from MAIT Delhi.
+              {/* I am a Bachelor of Engineering Student in Information Technology
+              from MAIT Delhi. */}
+              I am currently pursuing my under graduation in Information
+              Technology Engineering from Maharaja Agrasen Institute of
+              Technology in New Delhi. I mostly engage in Backend Development
+              with satisfactory knowledge of frontend frameworks. I am a keen
+              learner ready to learn new and exciting technologies.
             </p>
           </div>
-          <div className="text" style={{fontSize:"1em"}}>Please check the full version on web view.</div>
+          <div className="text" style={{ fontSize: "1em" }}>
+            Please check the full version on web view.
+          </div>
         </div>
       </Slide>
     </div>
