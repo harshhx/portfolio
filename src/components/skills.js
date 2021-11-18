@@ -42,10 +42,10 @@ function Skills() {
               style={style}
               onClick={() => {}}
               onMouseEnter={() => {
-                console.log("entered");
+                // console.log("entered");
               }}
               onMouseLeave={() => {
-                console.log("exited");
+                // console.log("exited");
               }}
             />
           );
