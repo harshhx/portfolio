@@ -26,6 +26,7 @@ function Skills() {
     "React.js",
     "JavaScript",
     "C++",
+    "git"
   ];
 
   return (
