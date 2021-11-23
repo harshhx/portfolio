@@ -46,6 +46,16 @@ function App() {
         <Education />
       </div>
     )
+
+    // <div>
+    //           <Confetti />
+    //     <Top />
+    //     <Skills />
+    //     <Work />
+    //     <Projects />
+    //     <Education />
+    // </div>
+
     // <Router>
     //   <Routes>
     //     <Route path="/" component={Skills} />
