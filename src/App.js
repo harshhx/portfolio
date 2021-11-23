@@ -37,7 +37,7 @@ function App() {
   return (
     (mobile && <div><Mobile /></div> ) || (
       <div className="App">
-        <NavbarT />
+        {/* <NavbarT /> */}
         <Confetti />
         <Top />
         <Skills />
