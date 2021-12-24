@@ -69,6 +69,46 @@ export default function Projects() {
             </Typography>
           </AccordionDetails>
         </Accordion>
+
+        <Accordion
+          expanded={expanded === "panel5"}
+          onChange={handleChange("panel5")}
+          style={accordian_style}
+        >
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon style={{ fill: "white" }} />}
+            aria-controls="panel5bh-content"
+            id="panel5bh-header"
+          >
+            <Typography
+              sx={{ width: "33%", flexShrink: 0 }}
+              style={main_project}
+            >
+              CRM Application
+            </Typography>
+            <a
+              exact
+              href="https://harshhx-crm.herokuapp.com/"
+              style={{ color: "inherit", textDecoration: "none" }}
+            >
+              {" "}
+              <Typography>
+              https://harshhx-crm.herokuapp.com/
+              </Typography>
+            </a>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              This is a web application that allows an organisation to create 
+              agents and leads and then respective leads could be assigned to specific agents. 
+              This apps comes with proper permissions such that agents and oranisations have different permissions. 
+              It was made using django with extensive use of
+              ORM's. Default django templates were used to make the frontend. It
+              is hosted with herokuapp.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
         <Accordion
           expanded={expanded === "panel2"}
           onChange={handleChange("panel2")}
