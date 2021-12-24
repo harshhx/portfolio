@@ -9,7 +9,7 @@ export default function Confetti() {
     for (var i = 0; i < 20; i++) {
       setTimeout(function () {
         setLoader(true);
-      }, (i + i + 1) * 5000);
+      }, (i + i + 1) * 2500);
     }
   }, []);
 
