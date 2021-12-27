@@ -37,7 +37,7 @@ function App() {
   return (
     (mobile && <div><Mobile /></div> ) || (
       <div className="App">
-        {/* <NavbarT /> */}
+        <NavbarT />
         <Confetti />
         <Top />
         <Skills />
@@ -47,20 +47,6 @@ function App() {
       </div>
     )
 
-    // <div>
-    //           <Confetti />
-    //     <Top />
-    //     <Skills />
-    //     <Work />
-    //     <Projects />
-    //     <Education />
-    // </div>
-
-    // <Router>
-    //   <Routes>
-    //     <Route path="/" component={Skills} />
-    //   </Routes>
-    // </Router>
   );
 }
 

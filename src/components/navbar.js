@@ -10,29 +10,29 @@ function NavbarT() {
         <Navbar bg="dark" variant="dark" fixed="top">
           <Container>
             <NavItem>
-              <Navbar.Brand as={Link} to="/">
+              <Navbar.Brand href="https://harshgupta.live">
                 Harsh Gupta
               </Navbar.Brand>
             </NavItem>
             <Nav className="me-auto">
               <NavItem>
-                <Nav.Link as={Link} to="/skills">
-                  Skills
+                <Nav.Link href="https://leetcode.com/harshhx/">
+                  LeetCode
                 </Nav.Link>
               </NavItem>
               <NavItem>
-                <Nav.Link as={Link} to="/work-experience">
-                  Work Experience
+                <Nav.Link href="https://www.linkedin.com/in/harshhx/">
+                  linkedin
                 </Nav.Link>
               </NavItem>
               <NavItem>
-                <Nav.Link as={Link} to="/projects">
-                  Projects
+                <Nav.Link href="https://github.com/harshhx">
+                  github
                 </Nav.Link>
               </NavItem>
               <NavItem>
-                <Nav.Link as={Link} to="/education">
-                  Education
+                <Nav.Link href="mailto:hg070401@gmail.com">
+                  Email Me
                 </Nav.Link>
               </NavItem>
             </Nav>
