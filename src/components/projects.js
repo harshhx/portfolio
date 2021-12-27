@@ -92,19 +92,17 @@ export default function Projects() {
               style={{ color: "inherit", textDecoration: "none" }}
             >
               {" "}
-              <Typography>
-              https://harshhx-crm.herokuapp.com/
-              </Typography>
+              <Typography>https://harshhx-crm.herokuapp.com/</Typography>
             </a>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              This is a web application that allows an organisation to create 
-              agents and leads and then respective leads could be assigned to specific agents. 
-              This apps comes with proper permissions such that agents and oranisations have different permissions. 
-              It was made using django with extensive use of
-              ORM's. Default django templates were used to make the frontend. It
-              is hosted with herokuapp.
+              This is a web application that allows an organisation to create
+              agents and leads and then respective leads could be assigned to
+              specific agents. This apps comes with proper permissions such that
+              agents and oranisations have different permissions. It was made
+              using django with extensive use of ORM's. Default django templates
+              were used to make the frontend. It is hosted with herokuapp.
             </Typography>
           </AccordionDetails>
         </Accordion>

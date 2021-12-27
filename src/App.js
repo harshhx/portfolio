@@ -7,12 +7,7 @@ import Mobile from "./components/mobile";
 import Work from "./components/work_exp";
 import Education from "./components/education";
 import Projects from "./components/projects";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Skills from "./components/skills";
 
 function App() {
@@ -35,7 +30,11 @@ function App() {
   }, [isMobile]);
 
   return (
-    (mobile && <div><Mobile /></div> ) || (
+    (mobile && (
+      <div>
+        <Mobile />
+      </div>
+    )) || (
       <div className="App">
         <NavbarT />
         <Confetti />
@@ -46,7 +45,6 @@ function App() {
         <Education />
       </div>
     )
-
   );
 }
 

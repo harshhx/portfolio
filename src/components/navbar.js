@@ -26,14 +26,10 @@ function NavbarT() {
                 </Nav.Link>
               </NavItem>
               <NavItem>
-                <Nav.Link href="https://github.com/harshhx">
-                  github
-                </Nav.Link>
+                <Nav.Link href="https://github.com/harshhx">github</Nav.Link>
               </NavItem>
               <NavItem>
-                <Nav.Link href="mailto:hg070401@gmail.com">
-                  Email Me
-                </Nav.Link>
+                <Nav.Link href="mailto:hg070401@gmail.com">Email Me</Nav.Link>
               </NavItem>
             </Nav>
           </Container>

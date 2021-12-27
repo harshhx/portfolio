@@ -11,16 +11,18 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import EducationT from "./education_t";
 
 function Education() {
-    return (
-      <div className="main">
-        <div className="work">
-          <h1 style={{ fontSize: "50px", color: "white", marginTop:"80px" }}>Education</h1>
-        </div>
-        <div className="timeline" style={{marginBottom:"0px"}}>
-          <EducationT />
-        </div>
+  return (
+    <div className="main">
+      <div className="work">
+        <h1 style={{ fontSize: "50px", color: "white", marginTop: "80px" }}>
+          Education
+        </h1>
       </div>
-    );
-  }
-  
-  export default Education;
+      <div className="timeline" style={{ marginBottom: "0px" }}>
+        <EducationT />
+      </div>
+    </div>
+  );
+}
+
+export default Education;
