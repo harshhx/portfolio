@@ -16,17 +16,17 @@ function NavbarT() {
             </NavItem>
             <Nav className="me-auto">
               <NavItem>
-                <Nav.Link href="https://leetcode.com/harshhx/">
+                <Nav.Link href="https://leetcode.com/harshhx/" target="_blank">
                   LeetCode
                 </Nav.Link>
               </NavItem>
               <NavItem>
-                <Nav.Link href="https://www.linkedin.com/in/harshhx/">
+                <Nav.Link href="https://www.linkedin.com/in/harshhx/" target="_blank">
                   linkedin
                 </Nav.Link>
               </NavItem>
               <NavItem>
-                <Nav.Link href="https://github.com/harshhx">github</Nav.Link>
+                <Nav.Link href="https://github.com/harshhx" target="_blank">github</Nav.Link>
               </NavItem>
               <NavItem>
                 <Nav.Link href="mailto:hg070401@gmail.com">Email Me</Nav.Link>
