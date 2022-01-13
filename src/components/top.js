@@ -5,6 +5,7 @@ import Confetti from "./confetti";
 import { Image, Row, Col, Container } from "react-bootstrap";
 import down from "./assets/down-arrow.svg";
 import { width } from "@mui/system";
+import SaveAltIcon from "@mui/icons-material/SaveAlt";
 import Button from "@mui/material/Button";
 // import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 import program from "./assets/undraw_programmer_re_owql.svg";
@@ -73,6 +74,30 @@ function Top() {
                   frameworks. I am a keen learner ready to learn new and
                   exciting technologies.
                 </p>
+                <br />
+                {loader && (
+                  <a
+                    href="Harsh Gupta RESUME .pdf"
+                    download
+                    style={{ textDecoration: "none" }}
+                  >
+                    <Button
+                      size="large"
+                      variant="contained"
+                      endIcon={<SaveAltIcon />}
+                      style={{
+                        backgroundColor: "rgb(33, 37, 41)",
+                        textDecoration: "none",
+                        maxWidth: "130px",
+                        maxHeight: "80px",
+                        minWidth: "130px",
+                        minHeight: "50px",
+                      }}
+                    >
+                      Resume
+                    </Button>
+                  </a>
+                )}
               </div>
             </Slide>
           </Col>

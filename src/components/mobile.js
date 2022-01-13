@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { Slide } from "@mui/material";
 import { Image, Row, Col, Container } from "react-bootstrap";
 import "./mobile.css";
+import SaveAltIcon from "@mui/icons-material/SaveAlt";
+import Button from "@mui/material/Button";
 
 function Mobile() {
   return (
@@ -29,6 +31,28 @@ function Mobile() {
               with satisfactory knowledge of frontend frameworks. I am a keen
               learner ready to learn new and exciting technologies.
             </p>
+            <br/>
+            <a
+                    href="Harsh Gupta RESUME .pdf"
+                    download
+                    style={{ textDecoration: "none" }}
+                  >
+                    <Button
+                      size="large"
+                      variant="contained"
+                      endIcon={<SaveAltIcon />}
+                      style={{
+                        backgroundColor: "rgb(33, 37, 41)",
+                        textDecoration: "none",
+                        maxWidth: "130px",
+                        maxHeight: "80px",
+                        minWidth: "130px",
+                        minHeight: "50px",
+                      }}
+                    >
+                      Resume
+                    </Button>
+                  </a>
           </div>
           <div className="text" style={{ fontSize: "1em" }}>
             Please check the full version on web view.
