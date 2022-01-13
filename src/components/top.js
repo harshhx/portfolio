@@ -86,12 +86,7 @@ function Top() {
                       variant="contained"
                       endIcon={<SaveAltIcon />}
                       style={{
-                        backgroundColor: "rgb(33, 37, 41)",
-                        textDecoration: "none",
-                        maxWidth: "130px",
-                        maxHeight: "80px",
-                        minWidth: "130px",
-                        minHeight: "50px",
+                        backgroundColor: "rgb(33, 37, 41)"
                       }}
                     >
                       Resume
@@ -115,7 +110,8 @@ function Top() {
           </Col>
         </Row>
       </Container>
-      {loader && <img className="down" src={down} />}
+       {loader && <img className="down" src={down} /> || <div className="down"></div>} 
+      
     </div>
   );
 }
