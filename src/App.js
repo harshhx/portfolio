@@ -30,21 +30,8 @@ function App() {
   }, [isMobile]);
 
   return (
-    (mobile && (
-      <div>
-        <Mobile />
-      </div>
-    )) || (
-      <div className="App">
-        <NavbarT />
-        <Confetti />
-        <Top />
-        <Skills />
-        <Work />
-        <Projects />
-        <Education />
-      </div>
-    )
+      <h1>TESTINGGGGG ONNNNN.... </h1>
+
   );
 }
 
