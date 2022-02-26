@@ -79,6 +79,9 @@
     .about_content p{
         margin: 1rem 0 1.5rem;
     }
+    .about_me-image{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -97,5 +100,8 @@
 
     .about_content p{
         margin: 1.5rem 0;
+    }
+    .about_me-image{
+        display: none;
     }
 }
