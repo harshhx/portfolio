@@ -4,6 +4,7 @@ import Nav from './components/nav/Nav'
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Skills from "./components/skills/Skills";
+import Work from "./components/workExp/Work";
 
 const App =() =>{
     return(
@@ -12,6 +13,7 @@ const App =() =>{
             <Nav />
             <About />
             <Skills/>
+            <Work />
             <Contact />
         </>
     );
