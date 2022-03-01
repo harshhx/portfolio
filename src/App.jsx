@@ -8,6 +8,7 @@ import Work from "./components/workExp/Work";
 import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from "./components/testimonials/Testimonails";
 import Confetti from "./components/Confetti";
+import Footer from './components/footer/Footer'
 
 const App =() =>{
     return(
@@ -21,6 +22,7 @@ const App =() =>{
             <Portfolio />
             <Testimonials />
             <Contact />
+            <Footer />
         </>
     );
 }

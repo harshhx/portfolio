@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.css'
-import {AiOutlineHome, CgDetailsMore, GiSkills, ImOffice, AiOutlineProject, MdOutlineReviews} from "react-icons/all";
+import {AiOutlineHome, CgDetailsMore, GiSkills, ImOffice, AiOutlineProject, MdOutlineReviews, BsFillTelephoneFill} from "react-icons/all";
 import {useState} from 'react'
 
 
@@ -36,6 +36,10 @@ const Nav =() =>{
             <div className='tooltip'>
                 <a href="#testimonials" onClick={()=>setActiveNav('#testimonials')} className={activeNav === "#testimonials"? 'active': ''}><MdOutlineReviews/></a>
                 <span className='tooltiptext'>Testimonials</span>
+            </div>
+            <div className='tooltip'>
+                <a href="#contact" onClick={()=>setActiveNav('#contact')} className={activeNav === "#contact"? 'active': ''}><BsFillTelephoneFill/></a>
+                <span className='tooltiptext'>Contact</span>
             </div>
         </nav>
     );
