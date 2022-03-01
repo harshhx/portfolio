@@ -31,7 +31,6 @@ nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
 }
-
 .tooltip {
     position: relative;
     display: inline-block;
