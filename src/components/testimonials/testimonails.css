@@ -10,12 +10,20 @@
     user-select: none;
 }
 
+.designation{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
 .review{
     color: var(--color-light);
     font-weight: 300;
     display: block;
     width: 80%;
-    margin: 0.8rem auto;
+    margin: 1rem auto;
 }
 
 @media screen and (max-width: 1024px) {
