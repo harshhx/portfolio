@@ -37,10 +37,10 @@ const Nav =() =>{
                 <a href="#testimonials" onClick={()=>setActiveNav('#testimonials')} className={activeNav === "#testimonials"? 'active': ''}><MdOutlineReviews/></a>
                 <span className='tooltiptext'>Testimonials</span>
             </div>
-            <div className='tooltip'>
-                <a href="#contact" onClick={()=>setActiveNav('#contact')} className={activeNav === "#contact"? 'active': ''}><BsFillTelephoneFill/></a>
-                <span className='tooltiptext'>Contact</span>
-            </div>
+            {/*<div className='tooltip'>*/}
+            {/*    <a href="#contact" onClick={()=>setActiveNav('#contact')} className={activeNav === "#contact"? 'active': ''}><BsFillTelephoneFill/></a>*/}
+            {/*    <span className='tooltiptext'>Contact</span>*/}
+            {/*</div>*/}
         </nav>
     );
 }
