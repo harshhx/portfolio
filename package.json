@@ -23,6 +23,7 @@
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
     "react-tsparticles": "^1.36.0",
+    "swiper": "^7.3.1",
     "tsparticles-shape-confetti": "^1.14.2",
     "web-vitals": "^1.1.2"
   },
