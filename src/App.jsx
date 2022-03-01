@@ -7,11 +7,13 @@ import Skills from "./components/skills/Skills";
 import Work from "./components/workExp/Work";
 import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from "./components/testimonials/Testimonails";
+import Confetti from "./components/Confetti";
 
 const App =() =>{
     return(
         <>
             <Header />
+            <Confetti />
             <Nav />
             <About />
             <Skills/>
