@@ -46,9 +46,15 @@ const Portfolio = () => {
                 </article>
                 <article className='portfolio_item'>
                     <h3>Work at GetWork.org</h3>
-                    <div className="portfolio_item-image"> Made and maintained many api's with the help of Django-rest-framework.
+                    <div className="portfolio_item-image"> Made and maintained many api's with the help of
+                        Django-rest-framework.
 
-                        Worked on a real time chat feature, made with help of fireStore and React.js</div>
+                        Worked on a real time chat feature, made with help of fireStore and React.js
+                    </div>
+
+                    <div className="portfolio_item-image"> Created a new user flow to have a one click apply feature to
+                        enhance user experience. Made both frontend and backend required to achieve the goal.
+                    </div>
                     <div className="portfolio_item-cta">
 
                         <a href="https://getwork.org/" className='btn btn-primary' target="_blank">Link to Getwork</a>
@@ -59,7 +65,8 @@ const Portfolio = () => {
                     <div className="portfolio_item-image">Wrote many articles on Data visualisation and python.</div>
                     <div className="portfolio_item-cta">
                         {/*<a href="https://github.com" className='btn' target="_blank">Github</a>*/}
-                        <a href="https://auth.geeksforgeeks.org/user/hg070401/articles" className='btn btn-primary' target="_blank">Link to articles</a>
+                        <a href="https://auth.geeksforgeeks.org/user/hg070401/articles" className='btn btn-primary'
+                           target="_blank">Link to articles</a>
                     </div>
                 </article>
             </div>
