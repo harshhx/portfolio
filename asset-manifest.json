@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d6a8acb6.chunk.css",
-    "main.js": "/static/js/main.3e868cd3.chunk.js",
-    "main.js.map": "/static/js/main.3e868cd3.chunk.js.map",
+    "main.js": "/static/js/main.134deca9.chunk.js",
+    "main.js.map": "/static/js/main.134deca9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.22a18a27.js",
     "runtime-main.js.map": "/static/js/runtime-main.22a18a27.js.map",
     "static/css/2.966622df.chunk.css": "/static/css/2.966622df.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.966622df.chunk.css.map": "/static/css/2.966622df.chunk.css.map",
     "static/css/main.d6a8acb6.chunk.css.map": "/static/css/main.d6a8acb6.chunk.css.map",
     "static/js/2.ea72a31f.chunk.js.LICENSE.txt": "/static/js/2.ea72a31f.chunk.js.LICENSE.txt",
-    "static/media/CV.1063ae81.pdf": "/static/media/CV.1063ae81.pdf",
+    "static/media/CV.2f081fac.pdf": "/static/media/CV.2f081fac.pdf",
     "static/media/Harsh Gupta Blob.4578c322.png": "/static/media/Harsh Gupta Blob.4578c322.png"
   },
   "entrypoints": [
@@ -20,6 +20,6 @@
     "static/css/2.966622df.chunk.css",
     "static/js/2.ea72a31f.chunk.js",
     "static/css/main.d6a8acb6.chunk.css",
-    "static/js/main.3e868cd3.chunk.js"
+    "static/js/main.134deca9.chunk.js"
   ]
 }
