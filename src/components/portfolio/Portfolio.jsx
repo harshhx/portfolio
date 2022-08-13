@@ -41,7 +41,7 @@ const Portfolio = () => {
                     </div>
                     <div className="portfolio_item-cta">
                         <a href="https://github.com/harshhx/portfolio" className='btn' target="_blank">Github</a>
-                        <a href="https://www.harshgupta.live/" className='btn btn-primary' target="_blank">Live Demo</a>
+                        <a href="https://www.theharshgupta.co.in/" className='btn btn-primary' target="_blank">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio_item'>
