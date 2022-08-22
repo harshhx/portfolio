@@ -17,8 +17,8 @@
 .about_me-image{
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+    /*transform: rotate(10deg);*/
+    /*transition: var(--transition);*/
 }
 
 .about_me-image:hover{
