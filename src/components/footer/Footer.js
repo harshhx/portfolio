@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import {BsLinkedin, BsGithub} from 'react-icons/bs'
-import {SiLeetcode} from "react-icons/all";
+import {SiLeetcode, BsStackOverflow} from "react-icons/all";
 
 const Footer= () =>{
     return(
@@ -19,6 +19,7 @@ const Footer= () =>{
             <div className="footer_socials">
                 <a href="https://www.linkedin.com/in/harshhx/" target='_blank'><BsLinkedin /></a>
                 <a href="https://leetcode.com/harshhx/" target='_blank'><SiLeetcode /></a>
+                <a href="https://stackoverflow.com/users/17668426/harsh-gupta" target='_blank'><BsStackOverflow /></a>
                 <a href="https://github.com/harshhx" target='_blank'><BsGithub /></a>
             </div>
 

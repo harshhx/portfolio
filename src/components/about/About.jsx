@@ -28,9 +28,14 @@ const About = () => {
                     {/*</div>*/}
                     <p>
                         I am currently pursuing my under graduation in Information Technology Engineering from Maharaja
-                        Agrasen Institute of Technology in New Delhi. I mostly engage in Backend Development with
-                        satisfactory knowledge of frontend frameworks. I am a keen learner ready to learn new and
-                        exciting technologies.
+                        Agrasen Institute of Technology in New Delhi. I am a resourceful professional in building scalable and
+                        reliable backend API services and integrate them
+                        with user friendly components to serve vast
+                        volume of client traffic while ensuring best user
+                        experience. Have worked in a variety of areas that
+                        includes creating and deploying REST APIs with
+                        Django Rest Framework, crawling. Have also
+                        worked on React.js and Next.js apps
                     </p>
 
                     <a className='btn btn-primary' href="#contact"> Lets Talk</a>
