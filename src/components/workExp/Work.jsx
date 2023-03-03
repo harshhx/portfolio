@@ -89,7 +89,22 @@ const Work = () => {
 
 
                     <div className="qualification__content" data-content id="work">
+                    <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
 
+                            <div>
+                                <h3 className="qualification__title">Software Engineering intern</h3>
+                                <span className="qualification__subtitle">Adani Digital Labs</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i>
+                                    Feb 2023- Present
+                                </div>
+                            </div>
+                        </div>
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Software Engineering inter-Full Stack</h3>
