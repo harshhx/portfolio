@@ -149,14 +149,13 @@ const Work = () => {
 
                             <div>
                                 <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
+                                {/* <span className="qualification__line"></span> */}
                             </div>
                         </div>
-                        <div className="qualification__data">
+                        {/* <div className="qualification__data">
                             <div></div>
                             <div>
                                 <span className="qualification__rounder"></span>
-                                {/*<span className="qualification__line"></span>*/}
                             </div>
 
                             <div>
@@ -167,7 +166,7 @@ const Work = () => {
                                     Feb 2021 - March 2021
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
 
