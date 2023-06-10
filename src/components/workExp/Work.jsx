@@ -33,12 +33,12 @@ const Work = () => {
             <h2>Qualifications</h2>
             <div className="qualification__container container">
                 <div className="qualification__tabs">
-                    <div className="qualification__button button--flex qualification__active" data-target='#education'>
+                    <div className="qualification__button button--flex" data-target='#education'>
                         <i className="uil uil-graduation-cap qualification__icon"></i>
                         Education
                     </div>
 
-                    <div className="qualification__button button--flex" data-target="#work">
+                    <div className="qualification__button button--flex qualification__active" data-target="#work">
                         <i className="uil uil-briefcase-alt qualification__icon"></i>
                         Work
                     </div>
@@ -46,7 +46,7 @@ const Work = () => {
 
                 <div className="qualification__sections">
 
-                    <div className="qualification__content qualification__active" data-content id="education">
+                    <div className="qualification__content" data-content id="education">
 
                         <div className="qualification__data">
                             <div>
@@ -88,7 +88,7 @@ const Work = () => {
                     </div>
 
 
-                    <div className="qualification__content" data-content id="work">
+                    <div className="qualification__content qualification__active" data-content id="work">
                     <div className="qualification__data">
                             <div></div>
                             <div>
