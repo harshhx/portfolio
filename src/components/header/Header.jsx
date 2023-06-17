@@ -3,10 +3,12 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/Harsh Gupta Blob.png'
 import HeaderSocials from "./HeaderSocials";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Header =() =>{
     return(
-        <header>
+        <ScrollAnimation  animateIn="fadeIn">
+            <header>
             <div className="container header_container">
                 <h5>
                     Hello I'm
@@ -26,6 +28,8 @@ const Header =() =>{
 
             </div>
         </header>
+        </ScrollAnimation>
+        
     );
 }
 
