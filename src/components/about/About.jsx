@@ -28,8 +28,8 @@ const About = () => {
                     {/*</div>*/}
                     <p>
                         I am a recent graduate in Information Technology Engineering from Maharaja Agrasen Institute of Technology in New Delhi. I have valuable experience as a Software Development Engineer (SDE 1) at Datacultr, where I specialized in building highly scalable backend applications.
-
-                        During my academic journey and professional career, I have excelled in creating and deploying REST APIs with Django Rest Framework, working on React.js and Next.js applications, and integrating these services with user-friendly components to efficiently manage high client traffic while ensuring the best user experience. I've also gained experience in web crawling and have contributed to projects in various domains.
+                        I have also worked at Adani Digital Labs where I build applications which created a lot of impact for the organization. 
+                        During my academic journey and professional career, I have excelled in creating and deploying REST APIs with Django Rest Framework, working on React.js and Next.js applications, and integrating these services with user-friendly components to efficiently manage high client traffic while ensuring the best user experience.
 
                         I am now actively seeking new opportunities to apply my knowledge and skills in software development and further contribute to the tech industry.
                     </p>
