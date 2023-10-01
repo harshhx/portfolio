@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css'
 import ME from '../../assets/Harsh Gupta Blob.png'
-import {FaAward} from "react-icons/all";
+import { FaAward } from "react-icons/all";
 
 const About = () => {
     return (
@@ -11,7 +11,7 @@ const About = () => {
 
             <div className="container about_container">
                 <div className="about_me-image">
-                    <img src={ME} alt="me"/>
+                    <img src={ME} alt="me" />
                 </div>
                 <div className="about_content">
                     {/*<div className="about_cards">*/}
@@ -27,15 +27,11 @@ const About = () => {
                     {/*    </article>*/}
                     {/*</div>*/}
                     <p>
-                        I am currently pursuing my under graduation in Information Technology Engineering from Maharaja
-                        Agrasen Institute of Technology in New Delhi. I am a resourceful professional in building scalable and
-                        reliable backend API services and integrate them
-                        with user friendly components to serve vast
-                        volume of client traffic while ensuring best user
-                        experience. Have worked in a variety of areas that
-                        includes creating and deploying REST APIs with
-                        Django Rest Framework, crawling. Have also
-                        worked on React.js and Next.js apps
+                        I am a recent graduate in Information Technology Engineering from Maharaja Agrasen Institute of Technology in New Delhi. I have valuable experience as a Software Development Engineer (SDE 1) at Datacultr, where I specialized in building highly scalable backend applications.
+
+                        During my academic journey and professional career, I have excelled in creating and deploying REST APIs with Django Rest Framework, working on React.js and Next.js applications, and integrating these services with user-friendly components to efficiently manage high client traffic while ensuring the best user experience. I've also gained experience in web crawling and have contributed to projects in various domains.
+
+                        I am now actively seeking new opportunities to apply my knowledge and skills in software development and further contribute to the tech industry.
                     </p>
 
                     <a className='btn btn-primary' href="#contact"> Lets Talk</a>

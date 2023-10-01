@@ -54,7 +54,7 @@ const Work = () => {
                                     Engin.</h3>
                                 <span className="qualification__subtitle">Maharaja Agrasen Institute of Technology, New Delhi</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i>
+                                    <i className="uil uil-calendar-alt" style={{"marginRight": "5px"}}></i>
                                     2019 - 2023
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ const Work = () => {
                                 <span
                                     className="qualification__subtitle">Modern Vidya Niketan </span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i>
+                                    <i className="uil uil-calendar-alt" style={{"marginRight": "5px"}}></i>
                                     2017 - 2019
                                 </div>
                             </div>
@@ -90,7 +90,25 @@ const Work = () => {
 
                     <div className="qualification__content qualification__active" data-content id="work">
                     <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">Software Development Engineer 1</h3>
+                                <span className="qualification__subtitle">Datacultr</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt" style={{"marginRight": "5px"}}></i>
+                                    Aug 2023 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+                    <div className="qualification__data">
+                        
+
                             <div></div>
+
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
@@ -100,8 +118,8 @@ const Work = () => {
                                 <h3 className="qualification__title">Software Engineering intern</h3>
                                 <span className="qualification__subtitle">Adani Digital Labs</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i>
-                                    Feb 2023- Present
+                                    <i className="uil uil-calendar-alt" style={{"marginRight": "5px"}}></i>
+                                    Feb 2023- Aug 2023
                                 </div>
                             </div>
                         </div>
@@ -110,7 +128,7 @@ const Work = () => {
                                 <h3 className="qualification__title">Software Engineering inter-Full Stack</h3>
                                 <span className="qualification__subtitle">GetWork.org</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i>
+                                    <i className="uil uil-calendar-alt" style={{"marginRight": "5px"}}></i>
                                     June 2022 - Aug 2022
                                 </div>
                             </div>
@@ -132,7 +150,7 @@ const Work = () => {
                                 <h3 className="qualification__title">Software Engineering intern- Backend</h3>
                                 <span className="qualification__subtitle">GetWork.org</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i>
+                                    <i className="uil uil-calendar-alt" style={{"marginRight": "5px"}}></i>
                                     Aug 2021- Oct 2021
                                 </div>
                             </div>
@@ -142,7 +160,7 @@ const Work = () => {
                                 <h3 className="qualification__title">Technical Content Writer</h3>
                                 <span className="qualification__subtitle">GeekForGeeks</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i>
+                                    <i className="uil uil-calendar-alt" style={{"marginRight": "5px"}}></i>
                                     Dec 2020 - March 2021
                                 </div>
                             </div>

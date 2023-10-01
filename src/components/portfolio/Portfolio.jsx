@@ -45,6 +45,19 @@ const Portfolio = () => {
                     </div>
                 </article>
                 <article className='portfolio_item'>
+                    <h3>Work at Adani Digital Labs</h3>
+                    <div className="portfolio_item-image">Developed APIs using Nest.js and utilized Prisma ORM for the customer care
+executive dashboard's backend.
+Implemented TypeScript utilities across all DTOs to optimize the code
+Refactored the codebase to enhance performance, improve maintainability
+and reduce cognitive complexity</div>
+                    <div className="portfolio_item-cta">
+                        {/*<a href="https://github.com" className='btn' target="_blank">Github</a>*/}
+                        <a href="https://auth.geeksforgeeks.org/user/hg070401/articles" className='btn btn-primary'
+                           target="_blank">Link to articles</a>
+                    </div>
+                </article>
+                <article className='portfolio_item'>
                     <h3>Work at GetWork.org</h3>
                     <div className="portfolio_item-image"> Made and maintained many api's with the help of
                         Django-rest-framework.
@@ -69,6 +82,7 @@ const Portfolio = () => {
                            target="_blank">Link to articles</a>
                     </div>
                 </article>
+                
             </div>
         </section>
     )

@@ -1,7 +1,7 @@
 import React from 'react'
 import './skills.css'
 import {BsPatchCheckFill} from "react-icons/all";
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 const Skills = () => {
     return (
@@ -9,7 +9,7 @@ const Skills = () => {
             <h5>I have worked on these</h5>
             <h2>Skills</h2>
             <div className="container experience_container">
-                <ScrollAnimation animateIn='fade-right'>
+                {/* <ScrollAnimation animateIn='fade-right'> */}
                 <div className="experience_frontend">
                     <h3>Frontend Development</h3>
                     <div className="experience_content">
@@ -39,9 +39,9 @@ const Skills = () => {
                         </article>
                     </div>
                 </div>
-                </ScrollAnimation>
+                {/* </ScrollAnimation> */}
                 
-                <ScrollAnimation animateIn='fade-left'>
+                {/* <ScrollAnimation animateIn='fade-left'> */}
                 <div className="experience_backend">
                     <h3>Backend Development</h3>
                     <div className="experience_content">
@@ -67,12 +67,24 @@ const Skills = () => {
                         </article>
                         <article className='experience_details'>
                             <BsPatchCheckFill className='experience_detail-icon'/>
+                            <h4>Redis</h4>
+                        </article>
+                        <article className='experience_details'>
+                            <BsPatchCheckFill className='experience_detail-icon'/>
+                            <h4>Kafka</h4>
+                        </article>
+                        <article className='experience_details'>
+                            <BsPatchCheckFill className='experience_detail-icon'/>
+                            <h4>Celery</h4>
+                        </article>
+                        <article className='experience_details'>
+                            <BsPatchCheckFill className='experience_detail-icon'/>
                             <h4>Node.js</h4>
                         </article>
                     </div>
 
                 </div>
-                </ScrollAnimation>
+                {/* </ScrollAnimation> */}
                 
             </div>
         </section>
