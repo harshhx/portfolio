@@ -8,6 +8,23 @@ const Portfolio = () => {
             <h2>Projects</h2>
             <div className="container portfolio_container">
                 <article className='portfolio_item'>
+                    <h3>Work at Datacultr</h3>
+                    <div className="portfolio_item-image"> Conceptualized and implemented the "Offline Lock" functionality within the product,
+                        utilizing a cron service to lock devices, while ensuring data consistency across the entire service ecosystem.
+                    </div>
+
+                    <div className="portfolio_item-image"> Orchestrated the creation of new microservices tailored for specific tasks, seamlessly integrating them
+                        into the existing architecture via communication protocols such as HTTP requests, Kafka, rabbitMQ and Redis.
+                    </div>
+                    <div className="portfolio_item-image"> Conceptualized and implemented the "Offline Lock" functionality within the product, utilizing a cron service to lock devices,
+                        while ensuring data consistency across the entire service ecosystem.
+                    </div>
+                    <div className="portfolio_item-cta">
+                        <a href="https://datacultr.com/" className='btn btn-primary'
+                            target="_blank">Link to Datacultr</a>
+                    </div>
+                </article>
+                <article className='portfolio_item'>
                     <h3>Polling Application</h3>
                     <div className="portfolio_item-image"> This is a web application that allows users to create polls
                         and and vote on them. It was made using django with extensive use of ORM's. Default django
@@ -15,9 +32,9 @@ const Portfolio = () => {
                     </div>
                     <div className="portfolio_item-cta">
                         <a href="https://github.com/harshhx/Polling-Application" className='btn'
-                           target="_blank">Github</a>
+                            target="_blank">Github</a>
                         <a href="https://polling-application-harshhx.herokuapp.com/" className='btn btn-primary'
-                           target="_blank">Live Demo</a>
+                            target="_blank">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio_item'>
@@ -47,14 +64,14 @@ const Portfolio = () => {
                 <article className='portfolio_item'>
                     <h3>Work at Adani Digital Labs</h3>
                     <div className="portfolio_item-image">Developed APIs using Nest.js and utilized Prisma ORM for the customer care
-executive dashboard's backend.
-Implemented TypeScript utilities across all DTOs to optimize the code
-Refactored the codebase to enhance performance, improve maintainability
-and reduce cognitive complexity</div>
+                        executive dashboard's backend.
+                        Implemented TypeScript utilities across all DTOs to optimize the code
+                        Refactored the codebase to enhance performance, improve maintainability
+                        and reduce cognitive complexity</div>
                     <div className="portfolio_item-cta">
                         {/*<a href="https://github.com" className='btn' target="_blank">Github</a>*/}
                         <a href="https://auth.geeksforgeeks.org/user/hg070401/articles" className='btn btn-primary'
-                           target="_blank">Link to articles</a>
+                            target="_blank">Link to articles</a>
                     </div>
                 </article>
                 <article className='portfolio_item'>
@@ -79,10 +96,10 @@ and reduce cognitive complexity</div>
                     <div className="portfolio_item-cta">
                         {/*<a href="https://github.com" className='btn' target="_blank">Github</a>*/}
                         <a href="https://auth.geeksforgeeks.org/user/hg070401/articles" className='btn btn-primary'
-                           target="_blank">Link to articles</a>
+                            target="_blank">Link to articles</a>
                     </div>
                 </article>
-                
+
             </div>
         </section>
     )
