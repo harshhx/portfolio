@@ -90,12 +90,33 @@ const Work = () => {
 
                     <div className="qualification__content qualification__active" data-content id="work">
                     <div className="qualification__data">
+                        
+
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Software Development Engineer 1</h3>
+                                <span className="qualification__subtitle">PW (PhysicsWallah)</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt" style={{"marginRight": "5px"}}></i>
+                                    Aug 2024 - Present
+                                </div>
+                            </div>
+                        </div>
+                       
+
+                    <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Software Development Engineer 1</h3>
                                 <span className="qualification__subtitle">Datacultr</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt" style={{"marginRight": "5px"}}></i>
-                                    Aug 2023 - Present
+                                    Aug 2023 - Aug 2024
                                 </div>
                             </div>
 
