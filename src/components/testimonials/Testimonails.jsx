@@ -58,6 +58,18 @@ const Testimonials = () => {
                 </SwiperSlide>
                 <SwiperSlide className="testimonial">
                     {/*<img/>*/}
+                    <h5 className="name">Sajjan Kumar </h5>
+                    <small className="designation">
+                        Tech Lead Backend at Datacultr
+                    </small>
+                    <small className="review">
+                        I've enjoyed working with Harsh for the past year, and I've been consistently impressed by his dedication, technical skills, and positive attitude. He is highly motivated, quickly grasps new projects, and demonstrates a strong understanding of technical requirements.
+                        Harsh is a valuable asset to any team. Having great debugging skills, he always approaches problems with a logical and systematic approach. He is a team player who collaborates effectively with others and maintains a positive work environment.
+                        I wholeheartedly recommend Harsh for any role that requires a talented and dedicated backend engineer
+                    </small>
+                </SwiperSlide>
+                <SwiperSlide className="testimonial">
+                    {/*<img/>*/}
                     <h5 className="name">Niksa Khemka </h5>
                     <small className="designation">
                         Sustainability Consultant and Program Manager at Green Yatra
